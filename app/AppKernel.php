@@ -18,8 +18,14 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Tudor\PagPersBundle\TudorPagPersBundle(),
             new Angelescu\angelescuBundle\AngelescuangelescuBundle(),
+<<<<<<< HEAD
             new cosma\PagBundle\cosmaPagBundle(),
         );
+=======
+            new Acme\HelloBundle\AcmeHelloBundle(),
+            new Sonia\PageBundle\SoniaPageBundle(),
+                    );
+>>>>>>> db5c467cb1cd49d2d0534ef0a8f0ad781ceeab09
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             $bundles[] = new Acme\DemoBundle\AcmeDemoBundle();

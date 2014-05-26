@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 cosma_pag:
     resource: "@cosmaPagBundle/Resources/config/routing.yml"
+=======
+sonia_page:
+    resource: "@SoniaPageBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_hello:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+>>>>>>> db5c467cb1cd49d2d0534ef0a8f0ad781ceeab09
     prefix:   /
 
 angelescuangelescu:
