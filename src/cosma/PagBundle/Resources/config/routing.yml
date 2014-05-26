@@ -1,0 +1,3 @@
+cosma_pag_homepage:
+    pattern:  /pag/{name}
+    defaults: { _controller: cosmaPagBundle:Default:index }

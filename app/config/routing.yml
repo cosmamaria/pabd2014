@@ -1,3 +1,7 @@
+cosma_pag:
+    resource: "@cosmaPagBundle/Resources/config/routing.yml"
+    prefix:   /
+
 angelescuangelescu:
     resource: "@AngelescuangelescuBundle/Resources/config/routing.yml"
     prefix:   /
